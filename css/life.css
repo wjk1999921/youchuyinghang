@@ -55,7 +55,7 @@ ul{
 .one{
   width: 95%;
   height: 100px;
-  margin: 10px auto;
+  margin: 8px auto;
   border-radius: 10px 10px;
   /*margin: 10px;*/
   /*background: red;*/
@@ -88,3 +88,72 @@ ul{
     background: none;
 }
 /*轮播图结束*/
+/*邮乐特卖*/
+.youle{
+	display: flex;
+	padding: 0 10px 8px 10px;
+	
+}
+.youle_left{
+	flex: 2;
+}
+.youle_left>img{
+	width: 100%;
+}
+.youle_right{
+	flex: 1;
+	margin-left: -32px;
+	margin-top: 0px;
+}
+.youle_right>li>img{
+	width: 100%;
+}
+/*邮乐特卖结束*/
+/*活动专区*/
+.huodong{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	margin-top: -23px;
+}
+.huodong>a{
+	display: inline-block;
+	width: 49%;
+}
+.huodong>a>img{
+	width: 100%;
+}
+/*活动专区结束*/
+/*懂生活更懂你*/
+.knows{
+	margin-top: 3px;
+	background: #fff;
+}
+.knows_top{
+	padding: 10px 17px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+}
+/*下面的图标*/
+.life{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left:-28px;
+	text-align: center;
+}
+.life>li{
+	width: 23%;
+}
+.life>li>a>img{
+	width: 40%;
+}
+.life>li>a>span{
+	font-size: 14px;
+	color: #222222;
+	font-weight: bold;
+}
+/*第二排手机支付*/
+.zhifu{
+	margin-top: 15px;
+}
