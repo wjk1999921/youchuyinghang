@@ -1,0 +1,299 @@
+/*头部*/
+.nav{
+	background-image: url(../img/home_top_bg.9.png);
+}	
+ul{
+	list-style: none;
+}
+.header{
+	position: absolute;
+	top: 0;
+	display: flex;
+	height: 50px;
+	padding: 0 10px;
+	justify-content: space-between;
+}
+/*登陆*/
+.mui-tab-item>span{
+	display: block;
+	color: #000;
+}
+.dl{
+	margin-top: 10px;
+}
+.mui-tab-item>span:nth-child(2){
+	font-size: 15px;
+	margin-top: 5px;
+}
+/*中间输入框*/
+.mui-search{
+	width: 50%;
+	margin-top: 13px;
+	border-radius:10px 10px;
+}
+.mui-pull-right{
+	/*margin-top: 5px;*/
+}
+.mui-pull-right{
+	margin-top: 13px;
+}
+/*扫一扫*/
+.nav_con{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
+	text-align: center;
+	padding-left: 4%;
+	/*background-image: url(../img/home_top_bg.9.png);*/
+}
+.nav_con>a>img{
+	width: 50%;
+}
+.nav_con>a>p{
+	color: #fff;
+}
+.mui-content{
+	margin-top: -30px;
+	background: #fff;
+}
+/*轮播图*/
+.mui-slider{
+	margin: 10px 0;
+	background: #fff;
+}
+.mycard{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 5px;
+}
+.mycard>li{
+	width: 23%;
+	text-align: center;
+}
+#tupian .mycard>li>span>img{
+	display: block;
+	width: 50%;
+	margin-left: 20px;
+}
+#tupian2 .mycard>li>span>img{
+	display: block;
+	width: 50%;
+	margin-left: 20px;
+}
+.mycard>li:nth-last-child(-n+4){
+	margin-top: 10px;
+}
+/*指示器*/
+#mui-slider-indicator{
+	position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    background: none;
+}
+/*轮播图结束*/
+/*导航条结束*/
+/*公告*/
+.notice{
+	display: flex;
+	margin: 5px 0;
+	padding: 2px 15px;
+	background: #fff;
+	height: 40px;
+	box-sizing: border-box;
+}
+.notice_left{
+	width: 20%;
+	text-align: center;
+	border-right: 1px solid #ddd;
+	margin-top: 5px;
+}
+.notice_left>img{
+	width: 43%;
+}
+/*右边文字*/
+.notice_right {
+ 	width: 80%;
+ 	height: 36px;
+ 	overflow: hidden;
+ 	/*background: red;*/
+ }
+ .noticTipTxt {
+ 	color: #ff7300;
+ 	list-style: none;
+ 	overflow: hidden;
+ 	margin: 0 0 0 -5px;
+ }
+ 
+ .noticTipTxt li {
+ 	height: 18px;
+ 	line-height: 18px;
+ 	font-size: 13px;
+ }
+ 
+/*公告结束*/
+/*轮播图2*/
+.one{
+  width: 95%;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 10px 10px;
+  /*background: red;*/
+}
+.swiper-slide>img{
+	width: 100%;
+}
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*指示器*/
+/*.swiper-pagination ol{
+	width: 10px;
+	height: 10px;
+	background: yellow;
+}*/
+/*手机充值*/
+.recharge{
+	margin: 5px 0;
+	background: #fff;
+}
+.recharge>div:nth-child(1){
+	padding: 5px 10px;
+}
+.phone{
+	display: flex;
+	justify-content: space-between;
+	padding: 1px 10px;
+	height: 34px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.phone>input{
+	width: 80%;
+	height: 30px;
+	border: none;
+	font-size: 15px;
+	margin-left: -10px;
+	border-radius: none;
+}
+.phone>span{
+	/*padding-top: 5px;*/
+	color: green;
+	font-size: 30px;
+}
+/*价格*/
+.price{
+	display: flex;
+	padding: 17px 12px;
+	justify-content: space-between;
+	
+}
+.price>span{
+	display: inline-block;
+	width: 24%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid green;
+	border-radius: 10px;
+	text-align: center;	
+	color: green;
+}
+/*信用卡专区*/
+.zhuanqu{
+	background: #fff;
+}
+.zhuanqu_top{
+	padding: 5px 12px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+}
+.zhuanqu_top>a{
+	font-size: 14px;
+	color: #404040;
+}
+.zhuanqu_top>a>span{
+	color: #DDDDDD
+}
+/*底部*/
+.zhuanqu_con{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 23px;
+	text-align: center;
+}
+.zhuanqu_con>li{
+	width: 32%;
+}
+.zhuanqu_con>li>img{
+	width: 90%;
+}
+.zhuanqu_con>li>span{
+	display: block;
+	font-size: 15px;
+	margin-top: 8px;
+}
+.zhuanqu_con>li>p{
+	font-size: 13px;
+}
+/*信用卡专区结束*/
+/*特色专区*/
+.tese{
+	background: #fff;
+}
+.tese>div:nth-child(1){
+	padding: 5px 12px;
+	border-bottom: 1px solid #ddd;
+}
+/*底部*/
+.tese_bottom{
+	width: 80%;
+	margin-top: 5px;
+	margin-left: 3px;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 1px 1px 1px #DDDDDD;
+	/*background: pink;*/
+}
+.tese_bottom>img{
+	width: 100%;	
+}
+.tese_con{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding:0 5px;
+	margin-top: 1px;
+	/*height: 50px;*/
+}
+.tese_con{
+	flex: 1;
+}
+.tese_con>li:nth-child(3)>span{
+	display: block;
+	margin-top: 3px;
+}
+.tese_con>li>img{
+	width: 40%;
+}
+.tese_con>li>span{
+	font-size: 13px;
+}
+/*特色专区结束*/
+/*添加应用*/
+.yingyong>img{
+	width: 100%;
+}

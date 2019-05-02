@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	 <link href="../css/iconfont.css" rel="stylesheet"/>
+	<link href="../css/mui.css" rel="stylesheet" />
+	<link href="../css/swiper.min.css" rel="stylesheet" />
+	<link href="../css/life.css"  rel="stylesheet"/>
+	<script src="../js/mui.js" type="text/javascript"></script>
+	<script src="../js/swiper.min.js" type="text/javascript"></script>
+	<!--<script type="text/javascript">
+		mui.init()
+	</script>-->
+</head>
+<body>
+<!--导航条开始-->
+<div class="nav">
+	<header class="header">
+		<a class="mui-tab-item dl" href="html/licai.html">
+	        <span class="mui-icon iconfont icon-dingwei"></span>
+	        <span class="mui-tab-label">贵阳市</span>
+	   </a>
+		<div class="mui-input-row mui-search ">
+			<input type="search" class="mui-input-clear  mui-icon mui-icon-search" placeholder="请输入搜索关键字">
+		</div>
+		<a class="mui-tab-item mui-icon  mui-pull-right">
+			 <span class="mui-icon iconfont icon-kefu"></span>
+		</a>
+	</header>
+	<!--头部结束-->
+	<!--扫一扫-->
+	<div class="nav_con">
+		<a href="#">
+			<img src="../img/life_icon_white_party_charge.png" />
+			<p>党费</p>
+		</a>
+		<a href="#">
+			<img src="../img/fkm (2).png" />
+			<p>付款码</p>
+		</a>
+		<a href="#">
+			<img src="../img/life_icon_white_pay_center_bg.png" />
+			<p>缴费中心</p>
+		</a>
+		<a href="#">
+			<img src="../img/life_icon_white_charge.png" />
+			<p>手机充值</p>
+		</a>
+	</div>
+	<!--扫一扫结束-->
+</div>
+<!--导航条结束-->
+<!--轮播图-->
+ <div class="swiper-container one">
+	<div class="swiper-wrapper">
+	  <div class="swiper-slide  ">
+	  	<img src="../img/chuyouji.png" />
+	  </div>
+	  <div class="swiper-slide  ">
+	  		<img src="../img/gushi.png" />
+	  </div>
+	  <div class="swiper-slide  ">
+	  		<img src="../img/mhsh.png" />
+	  </div>
+	</div>
+	<div class="swiper-pagination" id="swiper-pagination"></div>
+ </div>
+<!--轮播图结束-->
+<!--邮乐特卖开始-->
+<div class="youle">
+	<div>
+		<img src="../img/life_ule_special_sale_bg.png">
+	</div>
+	<div>
+		
+	</div>
+</div>
+<!--邮乐特卖结束-->
+<script>
+ 	 var swiper = new Swiper('.one ', {
+      pagination: {
+      	//分页器容器的css选择器或HTML标签。分页器等组件可以置于container之外，
+      	//不同Swiper的组件应该有所区分，如#pagination1，#pagination2。
+        el: '.swiper-pagination',//el  获取分页器的css选择器
+      },
+      autoplay: {
+      //设置为true启动自动切换，并使用默认的切换设置。 默认false
+        delay: 2500,
+        //delay 自动切换的时间间隔，单位ms
+        disableOnInteraction: false,
+        //用户操作swiper之后，是否禁止autoplay。默认为true：停止。
+				//如果设置为false，用户操作swiper之后自动切换不会停止，每次都会重新启动autoplay。
+				//操作包括触碰，拖动，点击pagination等。
+      },
+    });
+//  var swiper = new Swiper('.two ', {
+//    pagination: {
+//    	//分页器容器的css选择器或HTML标签。分页器等组件可以置于container之外，
+//    	//不同Swiper的组件应该有所区分，如#pagination1，#pagination2。
+//      el: '.swiper-pagination',//el  获取分页器的css选择器
+//    },
+//    slidesPerView: 2,
+//    spaceBetween: 30,
+//  });
+ </script>
+</body>
+</html>

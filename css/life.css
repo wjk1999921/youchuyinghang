@@ -1,0 +1,90 @@
+ul{
+	list-style: none;
+}
+/*头部*/
+.nav{
+	background-image: url(../img/life_top_bg.9.png);
+}	
+.header{
+	position: absolute;
+	top: 0;
+	display: flex;
+	height: 50px;
+	padding: 0 10px;
+	justify-content: space-between;
+}
+/*登陆*/
+.mui-tab-item>span{
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+.dl{
+	margin-top: 10px;
+}
+.mui-tab-item>span:nth-child(2){
+	font-size: 15px;
+	margin-top: 5px;
+}
+/*中间输入框*/
+.mui-search{
+	width: 60%;
+	margin-top: 13px;
+	border-radius:10px 10px;
+}
+.mui-pull-right{
+	margin-top: 13px;
+}
+/*扫一扫*/
+.nav_con{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
+	text-align: center;
+	padding-left: 4%;
+	/*background-image: url(../img/home_top_bg.9.png);*/
+}
+.nav_con>a>img{
+	width: 50%;
+}
+.nav_con>a>p{
+	color: #fff;
+}
+/*导航条结束*/
+/*轮播图*/
+.one{
+  width: 95%;
+  height: 100px;
+  margin: 10px auto;
+  border-radius: 10px 10px;
+  /*margin: 10px;*/
+  /*background: red;*/
+}
+.swiper-slide>img{
+	width: 100%;
+}
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/*指示器位置*/
+#swiper-pagination{
+	position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    background: none;
+}
+/*轮播图结束*/
